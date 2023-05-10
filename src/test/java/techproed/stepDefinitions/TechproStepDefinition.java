@@ -43,4 +43,17 @@ public class TechproStepDefinition {
     public void kullanici_tum_sayfanin_resmini_alir() {
         ReusableMethods.tumSayfaResmi("TumSayfaResmi");
     }
+
+
+    @And("searchBoxda_{string}_aratir")
+    public void searchboxda__aratir(String arananKelime) {
+        techproPage = new TechproPage();
+        techproPage.searchBox.sendKeys(arananKelime, Keys.ENTER);
+    }
+
+    @And("sayfa_basliginin_{string}_icerdigini_test_eder")
+    public void sayfa_basliginin__icerdigini_test_eder(String metin) {
+        Assert.assertTrue(Driver.getDriver().getTitle().contains(metin));
+
+    }
 }

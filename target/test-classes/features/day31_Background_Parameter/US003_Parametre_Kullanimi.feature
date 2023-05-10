@@ -12,3 +12,11 @@ Feature: US003_TechProeducation_Testi
     And sayfa_basliginin_qa_icerdigini_test_eder
     When kullanici_tum_sayfanin_resmini_alir
     And sayfayi_kapatir
+
+    Scenario: TC02_TechProeducation_Sayfasi_Testi
+      And cikan_reklam_kapatilir
+      And kullanici 2 saniye bekler
+      And searchBoxda_"developer"_aratir
+      And sayfa_basliginin_"developer"_icerdigini_test_eder
+      When kullanici_tum_sayfanin_resmini_alir
+      And sayfayi_kapatir
