@@ -21,7 +21,7 @@ senaryoyu çalıştırabiliriz
                  features = "src/test/resources/features/ day30_IlkFeature",
                  glue = {"techproed/stepDefinitions"}, // Bu parametre ile kodlarımızı yazdığımız stepDefinition
                                                       // class'nın package'ını belirtiriz.
-                 tags = "@tc3",
+                 tags = "@gr1",
                  dryRun = false, // dryRun = false Test adımlarını kontrol eder ve browser'ı çalıştırır.
                                 // dryRun = true Test adımlarını sadece kontrol eder
                                 // default olarak false'dır.
