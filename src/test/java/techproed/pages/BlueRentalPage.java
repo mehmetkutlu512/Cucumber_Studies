@@ -25,4 +25,10 @@ public class BlueRentalPage {
 
     @FindBy(xpath = "//*[text()='OK']")
     public WebElement ok;
+
+    @FindBy(xpath = "//*[text()='Profile']")
+    public WebElement profile;
+
+    @FindBy(xpath = "//em")
+    public WebElement verifyEmail;
 }
