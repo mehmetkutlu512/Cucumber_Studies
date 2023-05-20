@@ -39,6 +39,7 @@
      </build>
 
 2-Aynı anda iki farklı scenario çalıştırabilmek için bir tane daha Runner1 isminde class oluşturduk.
-(3 farklı scenario çalıştırmak istersek  adet Runner class'ı olmalı)
+(3 farklı scenario çalıştırmak istersek  3 adet Runner class'ı olmalı)
 3-tags parametresine hangi scenario'ları çalıştıracaksak onları belirttik.
 4-Terminali açarak mvn clean verify yazarak aynı anda scenario'larımızı run ederiz.
+(Ya da sağ üstte Mavene tıkla ->lifecycle ->clean çift tık -> sonra verify çift tık yap)

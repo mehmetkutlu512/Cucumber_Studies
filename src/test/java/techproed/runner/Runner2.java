@@ -12,16 +12,17 @@ senaryoyu çalıştırabiliriz
 //Cucumber ile JUnit'in entegre olmasını sağlayan test çalıştırıcı notasyonudur.
 @RunWith(Cucumber.class)
 //Senaryoların nerede ve nasıl çalışacağı, hangi raporu kullanacağıyla alakalı seçenekleri ayarlarız.
-@CucumberOptions(plugin = {"pretty", "html:src/test/resources/features/htmlReport/cucumberHooks1.html",
-        "json:target/json-reports/cucumber1.json",
-        "junit:src/test/resources/features/htmlReport/cucumber1.xml",
+@CucumberOptions(plugin = {"pretty", "html:src/test/resources/features/htmlReport/cucumberHooks2.html",
+        //"json:src/test/resources/features/htmlReport/cucumber.json",
+        "json:target/json-reports/cucumber2.json",
+        "junit:src/test/resources/features/htmlReport/cucumber2.xml",
         "rerun:testOutput/failed_scenario.txt" },
 
         features = "src/test/resources/features",
         glue = {"techproed/stepDefinitions"},
-        tags = "@techpro2",
+        tags = "@techpro3",
         dryRun = false,
         monochrome = false
 )
-public class Runner1 {
+public class Runner2 {
 }

@@ -14,7 +14,7 @@ senaryoyu çalıştırabiliriz
 @RunWith(Cucumber.class)
 //Senaryoların nerede ve nasıl çalışacağı, hangi raporu kullanacağıyla alakalı seçenekleri ayarlarız.
 @CucumberOptions(plugin = {"pretty", "html:src/test/resources/features/htmlReport/cucumberHooks.html",
-                                     "json:src/test/resources/features/htmlReport/cucumber.json",
+                                     "json:target/json-reports/cucumber.json",
                                      "junit:src/test/resources/features/htmlReport/cucumber.xml",
                                      "rerun:testOutput/failed_scenario.txt" },
                 //rerun --> fail olan senaryoları belirtilen yoldaki txt dosyası içinde gösterir.
