@@ -56,4 +56,6 @@ public class TechproStepDefinition {
         Assert.assertTrue(Driver.getDriver().getTitle().contains(metin));
 
     }
+
+
 }

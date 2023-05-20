@@ -23,7 +23,7 @@ senaryoyu çalıştırabiliriz
                  features = "src/test/resources/features",
                  glue = {"techproed/stepDefinitions"}, // Bu parametre ile kodlarımızı yazdığımız stepDefinition
                                                       // class'nın package'ını belirtiriz.
-                 tags = "@rerun",
+                 tags = "@techpro1",
                  dryRun = false, // dryRun = false Test adımlarını kontrol eder ve browser'ı çalıştırır.
                                 // dryRun = true Test adımlarını sadece kontrol eder
                                 // default olarak false'dır.
